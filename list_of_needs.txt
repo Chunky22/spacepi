@@ -1,0 +1,8 @@
+weather balloon
+helium
+styrofoam box
+two cameras
+pi zero camera adapter
+power source (battery)
+gps unit
+radio transmitter
