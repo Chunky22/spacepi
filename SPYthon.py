@@ -5,9 +5,11 @@ from picamera import PiCamera
 from time import sleep
 from datetime import datetime
 
+#set up variables
+cur_dir = os.getcwd()
 cur_date = datetime.now()
 cur_hour = cur_date.strftime('%H:%M')
-image_name = '/home/slice/Pictures/spy%s.jpg' % cur_hour
+image_name = '%s/spy%s.jpg' % (cur_dir,cur_hour)
 camera = PiCamera()
 ## set up settings
 camera.resolution = (2592,1944)
